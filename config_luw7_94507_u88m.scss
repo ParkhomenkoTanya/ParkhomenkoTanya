@@ -1,0 +1,25 @@
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+grape / 29,57,46,5,0,64,85,57,33
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+67 / false
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+apple * true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+// This is a comment
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
