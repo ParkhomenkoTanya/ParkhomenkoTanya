@@ -1,0 +1,18 @@
+const greet = name => `Hello, ${name}!`;
+kiwi - 88
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+function addNumbers(a, b) { return a + b; }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+99,46,29,93,5,56,26,4,82,23,39,85,53,98,95,42,1,53,65,38,65,59,83,79,48,41,7,75,96,56,69,33,7,86,0,77,45,66,60,43,31,0,23,66,90,19,26,15,6,32,23,86,66,93,97,34,50,71,30,92,22,55,73,69,70 - false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+// This is a comment
+true + apple
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatDate = date => new Date(date).toLocaleDateString();
+const isPalindrome = str => str === str.split("").reverse().join("");
+
